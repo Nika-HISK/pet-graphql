@@ -27,7 +27,7 @@ import { Owner } from './owner/entities/owner.entity';
         password: cs.get('POSTGRES_PASSWORD', 'devpass'),
         database: cs.get('POSTGRES_DB', 'petdb'),
         entities: [Pet, Owner],
-        synchronize: true, // dev only - auto-create DB schema
+        synchronize: true,
         logging: true,
       }),
       inject: [ConfigService],
