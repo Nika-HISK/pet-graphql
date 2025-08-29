@@ -1,4 +1,4 @@
-# Pet GraphQL API
+# GraphQL API
 
 A comprehensive GraphQL API built with NestJS and TypeORM for managing pets and their owners. This project demonstrates GraphQL fundamentals, database relationships, and modern backend development practices.
 
